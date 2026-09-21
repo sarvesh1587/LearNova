@@ -1,0 +1,20 @@
+{
+  "name": "lms-server",
+  "version": "1.0.0",
+  "description": "Minimal Express + SQLite backend for the LMS frontend (no auth — handled by Clerk on the client).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

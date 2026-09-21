@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Learnova logo</title>
+  <desc id="desc">Minimal education logo featuring an open book, graduation cap, sparkle, and Learnova wordmark.</desc>
+
+  <defs>
+    <linearGradient id="blueGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#249BFF"/>
+      <stop offset="100%" stop-color="#2456E8"/>
+    </linearGradient>
+    <linearGradient id="navyGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#18345F"/>
+      <stop offset="100%" stop-color="#0D2344"/>
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFC44D"/>
+      <stop offset="100%" stop-color="#F59E2A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon -->
+  <g transform="translate(150 55)">
+    <!-- Graduation cap -->
+    <path d="M250 55 L430 145 L250 235 L70 145 Z" fill="url(#navyGradient)"/>
+    <path d="M390 165 V245" fill="none" stroke="#122A4E" stroke-width="9" stroke-linecap="round"/>
+    <path d="M390 235 C373 235 365 248 365 267 H415 C415 248 407 235 390 235Z" fill="#122A4E"/>
+
+    <!-- Stylized L / book -->
+    <path d="M115 180
+             C115 170 123 163 133 163
+             H183 C193 163 201 171 201 181
+             V395
+             C201 407 207 414 219 417
+             C262 428 304 452 330 486
+             V555
+             C297 520 260 501 218 492
+             C162 480 115 445 115 395 Z"
+          fill="url(#blueGradient)"/>
+
+    <!-- Left book page -->
+    <path d="M330 486
+             C296 448 257 425 218 417
+             C207 414 201 407 201 395
+             V485
+             C250 493 294 513 330 555 Z"
+          fill="url(#blueGradient)"/>
+
+    <!-- Right book page -->
+    <path d="M330 486
+             C364 448 403 425 442 417
+             C453 414 459 407 459 395
+             V485
+             C410 493 366 513 330 555 Z"
+          fill="url(#blueGradient)"/>
+
+    <!-- Lower navy page accent -->
+    <path d="M330 555 V486
+             C366 513 410 493 459 485
+             V520
+             C410 527 366 540 330 555Z"
+          fill="#122A4E"/>
+
+    <!-- Sparkle -->
+    <path d="M505 265
+             C510 286 519 295 540 300
+             C519 305 510 314 505 335
+             C500 314 491 305 470 300
+             C491 295 500 286 505 265Z"
+          fill="url(#goldGradient)"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="400" y="720"
+        text-anchor="middle"
+        font-family="Inter, Poppins, Arial, sans-serif"
+        font-size="92"
+        font-weight="700"
+        letter-spacing="-4">
+    <tspan fill="#122A4E">Learn</tspan><tspan fill="#2456E8">ova</tspan>
+  </text>
+</svg>

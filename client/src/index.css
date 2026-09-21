@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  /* ---------- TEXT SIZES ---------- */
+  --text-course-details-heading-small: 26px;
+  --text-course-details-heading-large: 36px;
+  --text-home-heading-small: 28px;
+  --text-home-heading-large: 48px;
+  --text-default: 15px;
+
+  /* ---------- GRID ---------- */
+  --grid-template-columns-auto: repeat(auto-fit, minmax(200px, 1fr));
+
+  /* ---------- SPACING ---------- */
+  --spacing-section-height: 380px;
+
+  /* ---------- COURSE CARD ---------- */
+  --max-width-course-card: 360px;
+  --shadow-custom-card: 0 8px 30px -8px rgba(0, 0, 0, 0.12);
+}
