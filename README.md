@@ -1,26 +1,17 @@
-\## Screenshots
+## Screenshots
 
+### Home
 
+![Home](./screenshots/home.png)
 
-\### Home
+### Course Catalog
 
-!\[Home](./screenshots/home.png)
+![Course Cards](./screenshots/course-cards.png)
 
+### Course Detail
 
+![Course Detail](./screenshots/course-detail.png)
 
-\### Course Catalog
+### My Enrollments
 
-!\[Course Cards](./screenshots/course-cards.png)
-
-
-
-\### Course Detail
-
-!\[Course Detail](./screenshots/course-detail.png)
-
-
-
-\### My Enrollments
-
-!\[Enrollments](./screenshots/enrollments.png)
-
+![Enrollments](./screenshots/enrollments.png)
